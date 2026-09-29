@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <!--embedded css goes here--> 
+   <style>
+    body{
+        background-image: url("images/Breathtaking.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    #para1{
+        background-color: aqua;
+        height: 100px;
+        color: brown;
+    }
+    #para2{
+        background-color: blue;
+        height: 100px;
+        color: black;
+    }
+    #para3{
+        background-color: antiquewhite;
+        height: 100px;
+        color: green;
+    }
+    .para4{
+        background-color: gold;
+        height: 100px;
+        color: darkblue;
+    }
+    #d1{
+        background-color: brown;
+        padding: 50px;
+        text-align: center;
+        color: aqua;
+    }
+    #b1{
+        background-color: orange;
+        color: white;
+        padding: 10px  40px;
+        border-radius: 50px;
+        border: none;
+        
+
+    }
+    #b1:hover{
+        background-color: black;
+        color: brown;
+        transition: all  3s  ease-in-out;
+
+    }
+    #s1{
+        background-color: orange;
+        color: black;
+        padding: 40px;
+        text-align: center;
+        
+    }
+    k1:hover{
+        background-color: orange;
+        color: black;
+        padding: 10px  40px;
+        border-radius: 50px;
+        
+        
+    }
+    #s1{
+         background-color: orange;
+        color: black;
+        padding: 40px;
+        text-align: center;
+         
+        
+    }
+   </style>
+   <h1>CSS IDS vs Classes</h1>
+   <p  id="para1">CSS IDs are used to uniquely identify a sigle HTML element on awebpage. An ID must be unique, meaning it should not be assigned to more than one element. IDs are mainly used when a specific element needs a unique style or special functionality. </p>
+   <p   id="para2">Because IDs are unique, they are commonly used for elelments such as headers, main containers, or sections that appear only once on a page. IDs can also be targeted easily using Javascript, making them useful for dynamic web applications. </p>
+   <p  id="para3">In CSS, IDs have a higher priority compared to classes. This means that styles applied using an ID will override class styles if there is a conflict. Due to this higher specificity, IDs should be used carefully.  </p>
+   <h1>Welcome</h1>
+   <p class="para4">CSS classes are used to apply the same styles to mutiple HTML elements. Unlike IDs, claases can be reused many times within the same page. This makes classes ideal for styling groups of elements consistently.</p>
+   <p  class="para4">For example, if several paragraphs need the same font size, color, or spacing, a single class can be applied to all of them them. This reduces code repetition and makes the stylesheet easier to manage and update.</p>
+   <p  class="para4">Classes are also usefel when designing responsive layouts and reusable components. They allow developers to maintain clean and organized CSS while keeping the HTML structure flexible.</p>
+
+    <!--  using divisions -->
+      <div  id="d1">
+        <h1>Welcome to Modcom</h1>
+        <p>It is a learning instituition</p>
+        <button  id="b1">Learn More</button>
+      </div>
+
+      <!-- using a section-->
+       <section  id="s1">
+        <h1>Our Location</h1>
+        <p>We are located in Westlands</p>
+        <button id="k1">Contact Us</button>
+       </section>
+</head>
+<body>
+    
+</body>
+</html>
